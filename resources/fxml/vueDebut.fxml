@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="67.0" prefWidth="196.0" text="Aventurier du rail">
+                    <font>
+                        <Font name="System Bold" size="19.0" />
+                    </font>
+                </Label>
+                <HBox alignment="CENTER" prefHeight="290.0" prefWidth="600.0">
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="290.0" prefWidth="231.0">
+                            <children>
+                                <Label alignment="CENTER" prefHeight="43.0" prefWidth="156.0" text="Nombres de joueurs" />
+
+                                <VBox fx:id="vboxdechoix" alignment="BOTTOM_CENTER" prefHeight="75.0" prefWidth="195.0" spacing="10">
+                                </VBox>
+                                <Label alignment="CENTER" prefHeight="68.0" prefWidth="152.0" text="Choix des noms" />
+                                <VBox alignment="BOTTOM_CENTER" prefHeight="46.0" prefWidth="328.0" spacing="10">
+                                   <children>
+                                      <TextField fx:id="nomJ1" prefHeight="25.0" prefWidth="100.0" />
+                                       <TextField fx:id="nomJ2" />
+                                       <TextField fx:id="nomJ3" />
+                                       <TextField fx:id="nomJ4" />
+                                       <TextField fx:id="nomJ5" />
+                                   </children>
+                                </VBox>
+                                <HBox alignment="BOTTOM_CENTER" prefHeight="85.0" prefWidth="199.0" spacing="30">
+                                    <children>
+                                        <Button mnemonicParsing="false" onAction="#btnCommencer" prefHeight="27.0" prefWidth="160.0" style="-fx-cursor: hand; -fx-background-color: black;" text="COMMENCER" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Button>
+                                        <Button mnemonicParsing="false" onAction="#ouvrirRegles" prefHeight="27.0" prefWidth="107.0" style="-fx-cursor: hand; -fx-background-color: black;" text="REGLES" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <ImageView fitHeight="8.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                        </ImageView>
+                        <ImageView fitHeight="258.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/accueil.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</Pane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="563.0" prefWidth="200.0" type="VBox" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="BOTTOM_CENTER" prefHeight="65.0" prefWidth="176.0" text="Pioche destinations">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <HBox fx:id="piocheDestination" alignment="CENTER" prefHeight="109.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/destinations.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" prefHeight="34.0" prefWidth="165.0" text="Pioche wagons">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <HBox fx:id="piocheWagon" alignment="TOP_CENTER" prefHeight="119.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="139.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/wagons.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="219.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="238.0" prefWidth="106.0" style="">
+               <children>
+
+               </children>
+            </VBox>
+            <VBox fx:id="cartesVisibles" alignment="TOP_CENTER" prefHeight="219.0" prefWidth="196.0" style="">
+               <children>
+
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="238.0" prefWidth="106.0" style="">
+               <children>
+
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+
+   </children>
+</fx:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root alignment="CENTER" prefHeight="135.0" prefWidth="1212.0" type="HBox" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="108.0">
+         <children>
+            <Label fx:id="nbWagons" alignment="CENTER" prefHeight="53.0" prefWidth="108.0" style="-fx-font-weight: bold;" text="15">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="24.0" prefWidth="181.0" text="WAGONS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="36.0" prefWidth="204.0" text="RESTANTS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="49.0">
+         <children>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="417.0">
+         <children>
+            <Label alignment="BOTTOM_LEFT" prefHeight="40.0" prefWidth="142.0" text="Vos cartes wagons" />
+            <HBox fx:id="cartesWagonsJoueurs" alignment="BOTTOM_LEFT" prefHeight="74.0" prefWidth="417.0" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="67.0">
+         <children>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="414.0">
+         <children>
+            <Label fx:id="voscartesdestinations" alignment="BOTTOM_LEFT" prefHeight="46.0" prefWidth="341.0" text="Vos cartes destinations" />
+            <HBox fx:id="cartesDestinationsJoueurs" alignment="BOTTOM_LEFT" prefHeight="74.0" prefWidth="414.0" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="44.0">
+         <children>
+         </children>
+      </VBox>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="76.0" prefWidth="84.0">
+         <children>
+            <Label fx:id="nbGares" alignment="CENTER" prefHeight="51.0" prefWidth="84.0" style="-fx-font-weight: bold;" text="3">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="24.0" prefWidth="181.0" text="GARES">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="36.0" prefWidth="204.0" text="RESTANTS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</fx:root>

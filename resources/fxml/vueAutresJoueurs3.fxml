@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" prefHeight="106.0" prefWidth="1280.0" type="HBox" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox fx:id="joueurCinq" alignment="CENTER" prefHeight="112.0" prefWidth="232.0">
+         <children>
+            <HBox fx:id="joueurCinqId" prefHeight="106.0" prefWidth="73.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/avatars/avatar-BLEU.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox fx:id="joueurCinqPoint" prefHeight="112.0" prefWidth="83.0">
+               <children>
+                  <Label fx:id="joueurCinqNom" alignment="BOTTOM_CENTER" prefHeight="48.0" prefWidth="125.0" text="LeChuck">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="joueurCinqScore" alignment="CENTER" prefHeight="40.0" prefWidth="125.0" style="-fx-font-weight: bold;" text="0">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="joueurUn" alignment="CENTER" prefHeight="112.0" prefWidth="232.0">
+         <children>
+            <HBox fx:id="joueurUnId" prefHeight="106.0" prefWidth="73.0" style="-fx-border-color:black; -fx-border-radius:5; -fx-border-width:2.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/avatars/avatar-BLEU.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox fx:id="joueurUnPoint" prefHeight="112.0" prefWidth="83.0">
+               <children>
+                  <Label fx:id="joueurUnNom" alignment="BOTTOM_CENTER" prefHeight="48.0" prefWidth="125.0" text="Guybrush" style="-fx-font-weight: bold; -fx-font-size: 15;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="joueurUnScore" alignment="CENTER" prefHeight="40.0" prefWidth="125.0" style="-fx-font-weight: bold;" text="0">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="joueurDeux" alignment="CENTER" prefHeight="112.0" prefWidth="232.0">
+         <children>
+            <HBox fx:id="joueurDeuxId" prefHeight="106.0" prefWidth="73.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/avatars/avatar-BLEU.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox fx:id="joueurDeuxPoint" prefHeight="112.0" prefWidth="83.0">
+               <children>
+                  <Label fx:id="joueurDeuxNom" alignment="BOTTOM_CENTER" prefHeight="48.0" prefWidth="125.0" text="Largo">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="joueurDeuxScore" alignment="CENTER" prefHeight="40.0" prefWidth="125.0" style="-fx-font-weight: bold;" text="0">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="joueurTrois" alignment="CENTER" prefHeight="112.0" prefWidth="232.0">
+         <children>
+            <HBox fx:id="joueurTroisId" prefHeight="106.0" prefWidth="73.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/avatars/avatar-BLEU.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox fx:id="joueurTroisPoint" prefHeight="112.0" prefWidth="83.0">
+               <children>
+                  <Label fx:id="joueurTroisNom" alignment="BOTTOM_CENTER" prefHeight="48.0" prefWidth="125.0" text="Elaine">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="joueurTroisScore" alignment="CENTER" prefHeight="40.0" prefWidth="125.0" style="-fx-font-weight: bold;" text="0">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="joueurQuatre" alignment="CENTER" prefHeight="112.0" prefWidth="232.0">
+         <children>
+            <HBox fx:id="joueurQuatreId" prefHeight="106.0" prefWidth="73.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/avatars/avatar-BLEU.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox fx:id="joueurQuatrePoint" prefHeight="112.0" prefWidth="83.0">
+               <children>
+                  <Label fx:id="joueurQuatreNom" alignment="BOTTOM_CENTER" prefHeight="48.0" prefWidth="125.0" text="Dernier">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="joueurQuatreScore" alignment="CENTER" prefHeight="40.0" prefWidth="125.0" style="-fx-font-weight: bold;" text="0">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</fx:root>

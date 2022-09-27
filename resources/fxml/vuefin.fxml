@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+      <fx:root type="VBox" alignment="CENTER" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <HBox fx:id="un" alignment="CENTER" prefHeight="79.0" prefWidth="600.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="87.0" prefWidth="96.0">
+                     <children>
+                        <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avatars/avatar-BLEU.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Label" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Label">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox fx:id="deux" alignment="CENTER" prefHeight="79.0" prefWidth="600.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="87.0" prefWidth="96.0">
+                     <children>
+                        <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avatars/avatar-BLEU.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Label" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Label">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox fx:id="trois" alignment="CENTER" prefHeight="79.0" prefWidth="600.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="87.0" prefWidth="96.0">
+                     <children>
+                        <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avatars/avatar-BLEU.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Label" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Label">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox fx:id="quatre" alignment="CENTER" prefHeight="79.0" prefWidth="600.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="87.0" prefWidth="96.0">
+                     <children>
+                        <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avatars/avatar-BLEU.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Label" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Label">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox fx:id="cinq" alignment="CENTER" prefHeight="79.0" prefWidth="600.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="87.0" prefWidth="96.0">
+                     <children>
+                        <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avatars/avatar-BLEU.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Label" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Label">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </fx:root>
